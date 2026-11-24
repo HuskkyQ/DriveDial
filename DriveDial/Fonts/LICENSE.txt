@@ -1,0 +1,5 @@
+Outfit, Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
+
+These TrueType files were decoded from the v6 design HTML, which embedded the WOFF builds.
+Outfit is used under the SIL Open Font License, Version 1.1.
+Chinese text in the app uses the iOS system font, as the design tokens request, and is not these files.

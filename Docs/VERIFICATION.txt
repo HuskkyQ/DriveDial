@@ -1,0 +1,30 @@
+Linux verification after the v6 HTML zip was readable.
+
+Attachment: /home/ubuntu/.cursor/projects/agent-repos-tmp-4362d9497534596f/uploads/drive-display-html_1a4a.zip
+Size: 5712310 bytes. Unzip listed index.html, Drive-Display-横屏仪表预览-v6.html, two gallery HTML files, and a README.
+
+Extracted from index.html:
+- CarRear car-rear-elevated.png 630x868, 380583 bytes
+- CarTop car-topdown.png 626x1004, 359350 bytes
+- Outfit weights 200, 300, 400, 500, 600 as TTF
+
+These pixel sizes match the v6 token assets. The images were not redrawn.
+
+After the 81f82ea simulator screenshot (2868x1320):
+
+Swift 6.4.3: swift test. Result: 36 XCTest cases passed, 0 failures, including CenterPagerTests.
+UI tests in DriveDialUITests were not executed: this machine has no Xcode and cannot compile SwiftUI.
+The package tests do not prove the swipe animation.
+Those tests cover glyph-frame math, one-time board scaling, and gear clearance.
+They do not render SwiftUI. Linux did not run the iOS layout.
+
+iOS build: NOT RUN on this machine.
+Simulator: NOT RUN on this machine.
+The previous Mac build of 81f82ea is the screenshot being fixed.
+Static check: python3 Tools/validate_project.py
+
+iOS build: NOT RUN.
+Simulator: NOT RUN.
+Xcode is not installed here.
+
+GitHub push: not attempted in this round.
